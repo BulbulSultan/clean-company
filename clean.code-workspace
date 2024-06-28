@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../Projects/clean"
+		},
+		{
+			"path": "../Projects/facebook-scss"
+		},
+		{
+			"path": "../Projects/instagram"
+		},
+		{
+			"path": "../Projects/linkedin"
+		},
+		{
+			"path": "../Projects/Real Estate"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bulbull",
+		"liveServer.settings.port": 5501
+	}
+}

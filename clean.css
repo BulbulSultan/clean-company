@@ -1,0 +1,1091 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #f1f5f9;
+}
+
+.orta {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.logo {
+    width: 20px;
+
+}
+
+.logo img {
+    width: 120px;
+}
+
+header .sol {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .sag {
+    width: 30%;
+}
+
+.sag ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* .sag ul i{
+    display: none;
+} */
+
+.sag ul li a {
+    color: black;
+}
+
+.right li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.right li a {
+    color: #020617;
+}
+
+.yellow.border {
+    border: 0.5px solid #bdbbb4;
+    border-radius: 50px;
+    background-color: #ffd749;
+    height: 50px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section .photo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.photo .sol {
+    width: 42%;
+}
+
+.photo .sol img {
+    width: 506px;
+    margin: 10px 50px;
+}
+
+.photo .sag {
+    width: 58%;
+}
+
+.photo .sag .title {
+    width: 100%;
+}
+
+.trustpilot-rating {
+    background-color: #020617;
+    width: 285px;
+    height: 35px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 21px;
+}
+
+.trustpilot-rating .blue-circle {
+    background-color: #3fcef6;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+
+.trustpilot-rating span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.trustpilot-rating span:last-child {
+    color: grey;
+    font-weight: 400;
+}
+
+.trustpilot-rating .stars {
+    gap: 5px;
+    display: flex;
+}
+
+.trustpilot-rating i {
+    font-size: 11px;
+}
+
+.photo .sag .title h2 {
+    width: 100%;
+    margin: 15px 28px;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.photo .sag .subtitle p {
+    width: 100%;
+    color: rgb(185, 180, 180);
+    margin: 10px 25px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.subtitle ul {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.photo .sag li {
+    list-style: none;
+}
+
+.photo .sag li a {
+    color: black;
+}
+
+.sag .yellow {
+    border: 0.5px solid #bdbbb4;
+    border-radius: 50px;
+    background-color: #ffd749;
+    height: 50px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 20px;
+}
+
+.sag .white {
+    border: 1px solid #bdbbb4;
+    border-radius: 50px;
+    background-color: white;
+    height: 50px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.white:hover {
+    background-color: #1e87f0;
+}
+
+.white:hover a {
+    color: white !important;
+}
+
+.mission {
+    width: 100%;
+    background-color: #083f87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission .orta .more {
+    list-style: none;
+}
+
+.mission .sol {
+    width: 43%;
+}
+
+.mission .sol .title {
+    width: 80%;
+}
+
+.mission .sol .title h2 {
+    width: 100%;
+    margin: 55px 0;
+    font-size: 59px;
+    font-weight: 500;
+    color: white;
+    line-height: 64px;
+}
+
+.mission .sol .subtitle p {
+    width: 100;
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: 500;
+    color: #d5e4e79e;
+}
+
+.sol .more {
+    border: 1px solid #bdbbb4;
+    border-radius: 50px;
+    background-color: #ffd749;
+    height: 50px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.sol .more a {
+    color: black;
+}
+
+.mission .sag {
+    width: 50%;
+}
+
+.mission .sag img {
+    width: 530px;
+    margin: 10px 15px;
+}
+
+.mission .right {
+    width: 100%;
+}
+
+.mission .right img {
+    width: 352px;
+}
+
+.service {
+    width: 100%;
+    background-color: #083f87;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.service .orta {
+    flex-direction: column;
+    border-top: 2px dashed #ffffff6b;
+}
+
+.service .arrow-down {
+    width: 60px;
+    height: 60px;
+    background-color: #083f87;
+    position: absolute;
+    top: -18px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .4s;
+    cursor: pointer;
+}
+
+.service .arrow-down i {
+    color: white;
+}
+
+.service .arrow-down:hover {
+    background-color: #1e87f0;
+}
+
+.service .orta h2 {
+    color: white;
+    font-size: 59px;
+    margin: 41px 0 10px 0;
+}
+
+.service .orta .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+}
+
+.service .orta .subtitle {
+    width: 72%;
+}
+
+.service .orta p {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 300;
+    color: #d5e4e7;
+    text-align: center;
+}
+
+.service .service-item {
+    width: 100%;
+    position: absolute;
+    bottom: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.service .service-item .item-box {
+    width: 27%;
+    height: 400px;
+    background-color: white;
+    border-radius: 40px;
+    border: 1px solid rgb(226, 223, 223);
+    background-image: radial-gradient(at bottom left, #3fcef671 0%, #ffffff00 45%);
+}
+
+.item-box .sag h2 {
+    color: #8290ce;
+    font-size: 22px;
+}
+
+.service .item-box .sag p {
+    color: #020617;
+    font-size: 34px;
+    position: relative;
+    bottom: 224px;
+    left: -4%;
+}
+
+.item-box .sag ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 40px;
+}
+
+.item-box .sag .top ul li a {
+    border: 1px solid #bdbbb4;
+    border-radius: 50px;
+    background-color: #ffd749;
+    height: 50px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 35px;
+}
+
+.item-box .top img {
+    position: relative;
+    bottom: 206px;
+    right: -163px;
+    width: 200px;
+    border-bottom-right-radius: 43px;
+}
+
+section.industry {
+    width: 100%;
+    position: relative;
+    padding-top: 290px;
+}
+
+.industry .sol {
+    width: 60%;
+}
+
+.industry .sol img {
+    width: 500px;
+    border-radius: 3%;
+    margin: 168px 130px;
+}
+
+.industry .sag {
+    width: 40%;
+}
+
+.industry .sag .title {
+    width: 87%;
+}
+
+.industry .sag .title h2 {
+    width: 100%;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 80px;
+    margin: -156px 10px;
+
+}
+
+.industry .sag .subtitle p {
+    width: 100%;
+    color: #475569;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 165px 10px;
+    line-height: 24px;
+}
+
+.industry .sag li {
+    list-style: none;
+
+}
+
+.industry .sag li a {
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.industry .sag .sari {
+    background-color: #ffd749;
+    border: 1px solid #949d9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 40%;
+    padding: 14px;
+}
+
+.industry .floating-btn {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 25%;
+}
+
+.industry .floating-btn .floating-item {
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(240, 237, 237);
+    background-color: white;
+    display: flex;
+    position: absolute;
+}
+
+.floating-item i {
+    color: #1e87f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.floating-item span {
+    color: black;
+}
+
+.floating-item:hover {
+    color: white;
+    background-color: #1e87f0;
+}
+
+.floating-item.first {
+    bottom: 151px;
+    left: 17%;
+}
+
+.floating-item.second {
+    bottom: 15px;
+    left: 20%
+}
+
+.floating-item.third {
+    left: 50%;
+    top: 20px;
+}
+
+.floating-item.fourth {
+    left: 76%;
+    bottom: 19px;
+}
+
+.floating-item.fifth {
+    top: 103px;
+    left: 72%;
+}
+
+.floating-item.sixth {
+    left: 27%;
+    top: 115px;
+}
+
+section.trio {
+    width: 100%;
+}
+
+.trio .place {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.place .place-item {
+    width: 29%;
+    padding: 86px;
+    border: 1px solid rgb(167, 163, 163);
+    border-radius: 5%;
+}
+
+.place .place-item .title h2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.place .place-item .subtitle p {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+/* .place .orta{
+    width: 30%;
+    padding: 43px;
+    border: 1px solid rgb(167, 163, 163);
+    border-radius: 5%;
+}
+.place .orta .title h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 63px;
+    font-weight: 600;
+}
+.place .orta .subtitle p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+.place .sag{
+    width: 30%;
+    padding: 43px;
+    border: 1px solid rgb(167, 163, 163);
+    border-radius: 5%;
+}
+.place .sag .title h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 63px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.place .sag .subtitle p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 300;
+} */
+section.choose {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f2fcfe;
+    padding: 80px 0;
+}
+
+.choose .sol {
+    width: 50%;
+
+}
+
+.choose .sol .title h2 {
+    width: 48%;
+    font-size: 51px;
+    margin: -3px 35px 0 24px;
+    font-weight: 510;
+    line-height: 66px
+}
+
+.choose .sol .bluetitle p {
+    width: 100%;
+    font-size: 21px;
+    margin: 22px 29px;
+    color: #0f57b4;
+}
+
+.choose .sol .title h5 {
+    width: 81%;
+    font-size: 21px;
+    font-weight: 400;
+    margin: 22px 27px;
+    color: #475569;
+}
+
+.choose .sol li {
+    list-style: none;
+
+}
+
+.choose .sol li a {
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.choose .sol .sari {
+    background-color: #ffd749;
+    border: 1px solid #949d9f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    width: 40%;
+    padding: 14px;
+    margin: 43px 32px;
+}
+
+.chooseus {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.choose .sag {
+    gap: 20px;
+    width: 53%;
+    background-color: #f2fcfe;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.choose .box1 {
+    border: 1px solid rgb(226, 223, 223);
+    border-radius: 40px;
+    width: 47%;
+    padding: 40px;
+    background-color: white;
+}
+
+.choose .box1 img {
+    width: 37px;
+}
+
+.choose .box1 h2 {
+    width: 100%;
+    font-size: 18px;
+}
+
+.choose .box1 p {
+    width: 100%;
+    font-size: 13px;
+    margin: 39px -22px;
+}
+
+section.blog {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog .yuxari {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.arrow-down {
+    width: 100%;
+}
+
+.section-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog .orta {
+    width: 90%;
+}
+
+.blog .orta .service-item {
+    width: 100%;
+    display: flex;
+    grid-area: 54px;
+    gap: 30px
+}
+
+.blog .sol .title h2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 84px 17px 31px 79px;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 39px;
+}
+
+.blog .sol .subtitle p {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 36px 21px 54px 74px;
+    font-size: 18px;
+    color: rgb(150, 153, 153);
+}
+
+.blog .sag li {
+    list-style: none;
+}
+
+.blog .sag li a {
+    border: 1px solid #bdbbb4;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+}
+
+.blog .item-box {
+    width: 40%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 86px;
+}
+
+.blog .item-box .sag img {
+    width: 200px;
+}
+
+.blog .item-box .sag h2 {
+    width: 100%;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: black;
+}
+
+.blog .item-box .sag p {
+    width: 100%;
+    font-size: 9px;
+}
+
+.section .space {
+    width: 100%;
+}
+
+.space .orta {
+    width: 100%;
+    background: #0D65D9;
+}
+
+.space .sol {
+    width: 60%;
+}
+
+.space .sol .title h2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 57px;
+    margin: 0 35px;
+    color: white;
+}
+
+.space .sol .subtitle p {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 29px;
+    margin: 20px 35px;
+    color: white;
+}
+
+.space .sol li {
+    list-style: none;
+}
+
+.space .sol li a {
+    border: 1px solid #bdbbb4;
+    border-radius: 50px;
+    background-color: #ffd749;
+    color: black;
+    height: 50px;
+    width: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 35px;
+}
+
+.space .sag {
+    width: 40%;
+}
+
+.space .sag img {
+    width: 453px;
+    margin: 35px 24px;
+}
+
+@media (min-width: 336px) and (max-width:1326px) {
+
+    ul {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        border-bottom: 1px solid #f1f5f9;
+    }
+
+    .header .orta {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .logo {
+        width: 135px;
+
+    }
+
+    .logo img {
+        width: 147px;
+    }
+
+    header .sol {
+        width: 30%;
+        display: none;
+    }
+
+    header .sag {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sag ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .sag ul i {
+        display: flex;
+        justify-content: end;
+        width: 68px;
+    }
+
+    .sag ul li a {
+        color: black;
+    }
+
+    .sag ul li:nth-child(1) {
+        display: none;
+    }
+
+
+    .yellow.border {
+        border: 0.5px solid #ffd749;
+        border-radius: 50px;
+        background-color: #ffd749;
+        height: 50px;
+        width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .section .photo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .photo .orta{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    
+    .photo .sol {
+        width: 100%;
+    }
+    
+    .photo .sol img {
+        width: 506px;
+        margin: 10px 50px;
+    }
+    
+    .photo .sag {
+        width: 100%;
+    }
+    
+    .photo .sag .title {
+        width: 100%;
+    }
+    
+    .trustpilot-rating {
+        width: 350px;
+        height: 47px;
+        margin-left: 49px;
+    }
+    
+    .trustpilot-rating .blue-circle {
+        background-color: #3fcef6;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+    }
+    
+    .trustpilot-rating span {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    
+    .trustpilot-rating span:last-child {
+        color: grey;
+        font-weight: 400;
+    }
+    
+    .trustpilot-rating .stars {
+        gap: 6px;
+        display: flex;
+    }
+    
+    .trustpilot-rating i {
+        font-size: 11px;
+    }
+    
+    .photo .sag .title h2 {
+        width: 100%;
+        margin: 15px 28px;
+        font-size: 56px;
+        font-weight: 500;
+    }
+    
+    .photo .sag .subtitle p {
+        width: 100%;
+        color: rgb(185, 180, 180);
+        margin: 10px 25px;
+        font-size: 19px;
+        font-weight: 400;
+    }
+    
+    .subtitle ul {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    
+    .photo .sag li {
+        list-style: none;
+    }
+    
+    .photo .sag li a {
+        color: black;
+    }
+    
+    .sag .yellow {
+        border: 0.5px solid #bdbbb4;
+        border-radius: 50px;
+        background-color: #ffd749;
+        height: 50px;
+        width: 185px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 35px 20px;
+    }
+    
+    .sag .white {
+        border: 1px solid #bdbbb4;
+        border-radius: 50px;
+        background-color: white;
+        height: 50px;
+        width: 185px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 35px 0;
+    }
+    
+    .white:hover {
+        background-color: #1e87f0;
+    }
+    
+    .white:hover a {
+        color: white !important;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
